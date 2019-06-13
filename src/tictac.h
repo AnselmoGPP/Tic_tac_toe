@@ -11,7 +11,7 @@
 
 class tictac {
 	void intro();					// Simple presentation explaining how to input the positions.
-	char pieces[9] = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };		// Controls the positions on the board and the pieces put on it. Three possible states : ' ', 'x', 'o'.
+	char pieces[9] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };		// Controls the positions on the board and the pieces put on it. Three possible states : ' ', 'x', 'o'.
 	void board();					// Shows the board and the pieces on it, based on pieces[9].
 	void resetBoard();				// Removes all pieces from the board.
 
